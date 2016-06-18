@@ -14,3 +14,5 @@ CREATE TABLE IF NOT EXISTS `tabelao` (
   `ticket` INT NOT NULL,
   PRIMARY KEY (`idtabelao`))
 ENGINE = InnoDB;
+
+

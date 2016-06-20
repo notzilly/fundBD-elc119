@@ -11,3 +11,8 @@ INSERT INTO dominio (dominio, data_cadastro, ultima_atualizacao, ticket, id_inst
 SELECT tabelao.dominio, tabelao.data_cadastro, tabelao.ultima_atualizacao, tabelao.ticket, instituicao.id_instituicao
 FROM tabelao, instituicao
 WHERE tabelao.documento=instituicao.documento AND tabelao.nome=instituicao.nome
+
+
+-- QUery para poder testar o Outer join
+INSERT INTO instituicao (documento, nome, id_localidade)
+VALUES ('000.001.180/0002-05', 'Instituição Fantasma', 11)

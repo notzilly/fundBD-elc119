@@ -1,5 +1,5 @@
 INSERT INTO localidade (uf, cidade, cep)
-SELECT distinct uf, cidade, cep
+SELECT DISTINCT uf, cidade, cep
 FROM tabelao;
 
 INSERT INTO instituicao (documento, nome, id_localidade)
